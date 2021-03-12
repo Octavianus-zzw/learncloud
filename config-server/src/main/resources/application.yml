@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-server
+
+cloud:
+  config:
+    server:
+      git:
+        url: https://github.com/forezp/SpringcloudConfig/
+        search-paths: respo
+        username: 965240130@qq.com
+        passphrase: 6236056zzwzqllyx
+    label: master
+
+server:
+  port: 8888
